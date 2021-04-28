@@ -1,0 +1,37 @@
+
+.accordion {
+  font: poppins;
+  background-color: #536dfe9c;
+  color: #000000;
+  cursor: pointer;
+  margin-left: 9%;
+  margin-right: 9%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 82%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  padding-left: 10%;
+}
+.title-faq{
+    margin: 5%;
+}
+
+.active, .accordion:hover {
+  background-color: #2416e7; 
+  color: #ffff;
+}
+
+.panel {
+  padding: 0 18px;
+  padding-left: 9%;
+  padding-right: 9%;
+  margin-left: 9%;
+  margin-right: 9%;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
